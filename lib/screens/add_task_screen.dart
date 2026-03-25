@@ -20,7 +20,7 @@ class _AddTaskScreenState extends State<AddTaskScreen> {
   final _descriptionController = TextEditingController();
   DateTime _dueDate = DateTime.now().add(Duration(hours: 1));
   DateTime? _reminderTime;
-  String _category = 'Work';
+  String _category = 'work';
   int _priority = 2;
   bool _isRepeated = false;
   String _repeatType = 'daily';
